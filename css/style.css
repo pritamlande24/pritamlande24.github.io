@@ -1,0 +1,226 @@
+body{
+    font-family: Arial,sans-serif;
+    margin: 0;
+}
+.main-header{
+    text-align: right;
+    color: white;
+    background: white url("../img/image5.jpeg") no-repeat scroll center;
+    padding: 12px;
+}
+.main-nav{
+    background-color: black;
+    padding: 5px;
+    box-shadow: 0 0 10px black;
+}
+.main-nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 25px;
+    display: inline-block;
+}
+.main-nav a:hover{
+    background-color: #964e40;
+    border-radius: 5px;
+}
+.main-nav a.active{
+    background-color: darkred;
+    border-radius: 5px;
+}
+.home-news-section{
+    text-align: center;
+}
+.home-news-article{
+    border: 2px solid darkred;
+    width: 320px;
+    height: 500px;
+    display: inline-grid;
+    margin: 10px;
+    padding: 10px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    transition: all 0.5s;
+}
+.home-news-article:hover{
+    box-shadow: 0 0 10px darkred;
+    width: 340px;
+    cursor: pointer;
+}
+
+.home-news-article h2{
+    color: darkred;
+}
+.home-news-article img{
+    width: 100%;
+}
+
+
+.main-news-section{
+    width: 1100px;
+    margin: auto;
+}
+.main-news-article h2{
+    background: linear-gradient(45deg,#964e40,black,#964e40);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px darkred;
+}
+.main-news-article p{
+    color:#964e40 ;
+    text-align: center;
+    font-size: 18px;
+}
+.zoom{
+    width: 600px;
+    height: 350px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px darkred;
+    overflow: hidden;
+}
+.zoom img{
+    width: inherit;
+    height: inherit;
+    border-radius: 10px;
+    box-shadow: 0 0 10px darkred;
+    transition: all 0.5s;
+}
+.zoom:hover img{
+    transform: scale(1.2,1.2);
+}
+
+.main-footer{
+    background: linear-gradient(45deg,#964e40,black,#964e40);
+    text-align: center;
+    color: white;
+    padding: 12px;
+    box-shadow: 0 0 10px darkred;
+}
+.gallery-section{
+    text-align: center;
+    margin: 10px auto;
+
+}
+.gallery-figure{
+    border: 2px solid darkred;
+    width: 300px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+}
+.gallery-figure:hover{
+    box-shadow: 0 0 10px darkred;
+    cursor: pointer;
+}
+.gallery-zoom{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.gallery-zoom img{
+    width: inherit;
+    height: inherit;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.gallery-zoom:hover img{
+    transform:scale(1.2,1.2);
+}
+.gallery-figure figcaption{
+    color: darkred;
+    padding: 10px;
+}
+
+
+.about-section{
+    width: 1100px;
+    margin: auto;
+}
+.about-article{
+    background: white url("../img/gallery_mobile_3.jpg") no-repeat scroll top;
+    color: white;
+    padding: 15px;
+    margin: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 0 10px black;
+}
+.company-images-article{
+    text-align: center;
+}
+.company-images-article img{
+    width: 250px;
+    height: 150px;
+    margin: 5px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 0 0 5px black;
+}
+
+
+
+.contact-section{
+    background: white url("../img/image5.jpeg") no-repeat bottom;
+    padding: 20px;
+}
+.contact-article{
+    width: 250px;
+    text-align: center;
+    margin: auto;
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+.contact-article h2{
+    color: white;
+}
+.input-field{
+    font-size: 18px;
+    text-align: center;
+    border: none;
+    outline: none;
+    margin: 5px;
+    height: 35px;
+    width: 200px;
+    background: transparent;
+    border-bottom: 3px solid #514640;
+    color: white;
+}
+textarea{
+    border: 3px solid #514640;
+    outline: none;
+    background: transparent;
+    margin: 5px;
+    border-radius: 10px;
+    width: 180px;
+}
+textarea:focus{
+    border: 3px solid #bca487;
+}
+::placeholder{
+    color: lightgray;
+}
+.input-field:focus{
+    border-bottom: 3px solid #bca487;
+}
+#submit-btn{
+    background-color: #514640;
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding: 10px 50px;
+    box-shadow: 0 0 10px black;
+    border-radius: 50px;
+    margin: 10px;
+    outline: none;
+}
+#submit-btn:hover{
+    background-color: #bca487;
+    color: black;
+    cursor: pointer;
+}
